@@ -24,7 +24,7 @@
 
 + (NSString *)getUid:(BOOL)showLoginController
 {
-    NSString *uid = [[NSUserDefaults standardUserDefaults] stringForKey:@"uid"];
+    NSString *uid = @"110";//[[NSUserDefaults standardUserDefaults] stringForKey:@"uid"];
     
     if (showLoginController) {
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

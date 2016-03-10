@@ -61,7 +61,7 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
     // 添加一个window, 点击这个window, 可以让屏幕上的scrollView滚到最顶部
-    [XMGTopWindow show];
+//    [XMGTopWindow show];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
